@@ -6,14 +6,6 @@ public class Ages_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //1. възраст - цяло число
-        //2. проверка на възрастта
-        //•	0-2 – baby; - ok
-        //•	3-13 – child; - ok
-        //•	14-19 – teenager; - ok
-        //•	20-65 – adult;
-        //•	>=66 – elder;
-
         int age = Integer.parseInt(scanner.nextLine());
         if (age >= 0 && age <= 2) {
             System.out.println("baby");
